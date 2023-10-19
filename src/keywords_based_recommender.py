@@ -82,3 +82,4 @@ metadata['soup'] = metadata.apply(create_soup, axis=1)
 print(metadata[['soup']].head(2))
 
 metadata.to_csv('../store_data/keywords_based.csv')
+
